@@ -24,8 +24,7 @@
     owner: root
     group: root
     mode: 0644
-# '--check' is not available on current major distros. Disabling temporarily.
-#    validate: "nft --check --file %s"
+    validate: "nft --check --file %s"
   notify: Reload nftables
 
 - name: Disable conflicting services
