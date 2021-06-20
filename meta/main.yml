@@ -7,12 +7,13 @@ galaxy_info:
   issue_tracker_url: https://github.com/Frzk/ansible-role-nftables/issues
   min_ansible_version: 2.4.2.0
   platforms:
-    - name: Archlinux
+    - name: ArchLinux
       versions:
-        - all
+        - any
     - name: EL
       versions:
-        - 7
+        - "7"
+        - "8"
     - name: Debian
       versions:
         - buster
@@ -20,6 +21,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - bionic
+        - focal
   galaxy_tags:
     - system
     - nftables
